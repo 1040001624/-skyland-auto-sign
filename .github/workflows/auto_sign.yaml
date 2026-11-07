@@ -2,7 +2,8 @@
 name: Auto Sign
 on:
   schedule:
-    - cron: '30 4 * * *'
+    - cron: '12 13 * * *'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 jobs:
   build:
